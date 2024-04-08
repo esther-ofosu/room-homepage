@@ -1,13 +1,14 @@
 #side{
     display: flex;
-    background-color: green;
     height: 534px;
+    width: 100vw;
 }
 
 #backg{
     background-image: url('/assets/images/desktop-image-hero-1.jpg');
     height: 534px;
-    width: 840px;
+    /* width: 840px; */
+    width: 57% !important;
     background-size: cover;
     background-position: center;
 }
@@ -20,7 +21,8 @@
 }
 
 #side-description{
-    width: 600px;
+    /* width: 600px; */
+    width: 43%;
     height: 534px;
     position: relative;
 }
@@ -35,16 +37,50 @@
     left: 0;
 }
 
-#left-arrow{
+#left-arrow, #right-arrow{
     height: 80px;
     width: 80px;
-    border-right: 2px;
+    background-image: url('/assets/images/icon-angle-left.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #right-arrow{
-    height: 80px;
-    width: 80px;
+    background-image: url('/assets/images/icon-angle-right.svg');
 }
+
+#left-arrow {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.441);
+}
+ h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4rem;
+    font-family: 'LeagueSpartan-Bold';
+    font-size: 48px;
+    padding-top: 40px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4rem;
+    font-family: 'LeagueSpartan-Light';
+    line-height: 1.5rem;
+}
+
+h3{
+    letter-spacing: 1rem;
+    font-size: 15px;
+    font-family: 'LeagueSpartan-Bold';
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
 
 
 
