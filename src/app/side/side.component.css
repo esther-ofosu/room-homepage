@@ -37,6 +37,11 @@
     left: 0;
 }
 
+#small-box:hover{
+    cursor: pointer;
+    
+}
+
 #left-arrow, #right-arrow{
     height: 80px;
     width: 80px;
@@ -47,6 +52,10 @@
 
 #right-arrow{
     background-image: url('/assets/images/icon-angle-right.svg');
+}
+
+#right-arrow:hover, #left-arrow:hover{
+    background-color: gray ;
 }
 
 #left-arrow {
@@ -83,6 +92,11 @@ h3{
 
 #shop-now-div{
     display: flex;
+}
+
+#shop-now-div:hover{
+    cursor: pointer;
+    color: gray;
 }
 
 img{
