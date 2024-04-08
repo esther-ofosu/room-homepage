@@ -1,0 +1,50 @@
+#side{
+    display: flex;
+    background-color: green;
+    height: 534px;
+}
+
+#backg{
+    background-image: url('/assets/images/desktop-image-hero-1.jpg');
+    height: 534px;
+    width: 840px;
+    background-size: cover;
+    background-position: center;
+}
+
+#inner-box{
+    width: 400px;
+    height: 261px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+#side-description{
+    width: 600px;
+    height: 534px;
+    position: relative;
+}
+
+#small-box{
+    display: flex;
+    width: 160px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#left-arrow{
+    height: 80px;
+    width: 80px;
+    border-right: 2px;
+}
+
+#right-arrow{
+    height: 80px;
+    width: 80px;
+}
+
+
+

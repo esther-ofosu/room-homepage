@@ -1,0 +1,62 @@
+#foot-1mg{
+    width: 420px;
+    height: 266px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/assets/images/image-about-dark.jpg');
+}
+
+#foot-div{
+    display: flex;
+}
+
+#foot-last{
+    width: 440px;
+    height: 266px;
+    background-image: url('/assets/images/image-about-light.jpg');
+}
+
+#foot-between{
+    width: 580px;
+    height: 266px;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 40px;
+
+}
+
+#foot-between h3{
+    margin-left: 42px;
+}
+
+#texts{
+    text-align:left ;
+    margin-left: 40px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-top: 20px;
+    font-family: League S;
+}
+
+#inner{
+    height: 140px;
+    width: 484px;
+}
+
+#text-box{
+    height: 110px;
+    width: 484px;
+}
+
+h1{
+    height: 22px;
+    width: 484px;
+}
+
+#footer-div{
+    display: flex;
+    width: 1440px;
+    height: 266px;
+}
+
+
