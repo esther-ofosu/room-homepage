@@ -71,3 +71,25 @@ h1{
 }
 
 
+
+@media screen and (min-width:375px){
+    #footer-div{
+        flex-direction: column;
+    }
+
+    #foot-1mg{
+        height:238px ;
+        width: 376px ;
+    }
+
+    #foot-between{
+        height: 213px;
+        width: 311px;
+    }
+
+    #foot-last{
+        width: 375px;
+        height: 227px;
+    }
+    
+}

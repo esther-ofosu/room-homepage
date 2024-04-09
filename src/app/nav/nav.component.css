@@ -14,6 +14,7 @@
 }
 
 nav{
+    display: flex;
     margin-left: 50px;
     margin-top: 45px;
 }
@@ -21,7 +22,7 @@ nav{
 button:hover{
     cursor: pointer;
     /* text-decoration: underline; */
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 #h1{
@@ -31,21 +32,50 @@ button:hover{
 
 button{
     color: white;
-    font-weight: 500;
-    margin-bottom: 10px;
-    
-}
-
-nav button{
+    font-weight: 550;
+    background:transparent;
     border: none;
     outline: none;
     margin-right: 30px;
-    background:transparent;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
     
 }
 
-nav button:hover{
-    cursor: pointer;
-    border-bottom: 2px solid;
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.underline {
+    position: absolute;
+    bottom: 3px;
+    /* right: 0; */
+    width: 30%;
+    height: 2px;
+    background-color: white; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+    margin-left: 11px;
+    margin-bottom: 12px;
+}
+
+#second-underline{
+    margin-left: 9px;
+}
+
+button:hover + .underline {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+@media screen and (min-width:375px) {
+    #room{
+        
+    }
     
 }
+
