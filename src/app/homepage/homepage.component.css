@@ -2,6 +2,11 @@
 
 #body-div{
     display: flex;
-    width: 100%;
+    width: 100vw;
     /* height: 534px; */
 }
+
+#body{
+    width: 100vw;
+}
+
