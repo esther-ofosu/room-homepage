@@ -70,7 +70,7 @@ h1{
 
     #foot-1mg{
         height:auto ;
-        width: 100vw ;
+        width: fit-content;
         margin-top: 55px ;
     }
 
@@ -80,7 +80,7 @@ h1{
 
     #foot-between{
         height: 213px;
-        width: 100vw;
+        width: fit-content;
         padding: 0;
     }
 
@@ -90,7 +90,7 @@ h1{
     }
     
     #footer-div{
-        width: 100vw;
+        width: fit-content;
     }
 
     #inner h3{
