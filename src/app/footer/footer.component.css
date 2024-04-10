@@ -1,5 +1,4 @@
 #foot-1mg{
-    width: 28%;
     height: auto;
     background-size: cover;
     background-position: center;
@@ -19,16 +18,22 @@
     align-items: center;
     flex-direction: column;
     padding: 0 2rem;
-    width: 38%;
+    width: 40%;
     text-align: left;
+    margin-left: 0;
+}
+
+#dark-img{
+    background-size: cover;
 }
 
 #foot-between h3{
+    margin-left: 42px;
     width: fit-content;
     font-family: 'LeagueSpartan-Bold';
     font-size: 16px;
     letter-spacing: 0.4rem;
-    padding-left: 25px;
+    /* padding-left: 25px; */
 }
 
 #texts{
@@ -53,7 +58,7 @@ h1{
 
 #footer-div{
     display: flex;
-    width: 100%;
+    width: fit-content;
 }
 
 
