@@ -1,3 +1,4 @@
+import { Block } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,14 +9,30 @@ import { Component } from '@angular/core';
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
-  isMobileMenuOpen = false;
 
-  toggleMobileMenu() {
-    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  toggleIconClose() {
+    const mobileMenu= document.getElementById('mobileMenu') as HTMLDivElement
+    mobileMenu.style.display = 'block';
+    const closeMenuDiv = document.getElementById('closeMenuDiv') as HTMLDivElement
+    closeMenuDiv.style.display = 'none';
+
+    console.log('mobile menu display in block')
   }
 
-  navigateTo(destination: string) {
-    // Implement your navigation logic here based on `destination`
-    console.log(`Navigating to: ${destination}`);
+  
+  toggleMobileMenu() {
+    const closeMenuDiv = document.getElementById('closeMenuDiv') as HTMLDivElement
+    closeMenuDiv.style.display = 'block';
+    closeMenuDiv.style.backgroundColor = 'white'
+
+    const mobileMenu= document.getElementById('mobileMenu') as HTMLDivElement
+    mobileMenu.style.display = 'none';
+
+    const closeIcon = document.getElementById('close-img') as HTMLDivElement
+    closeIcon.style.display = 'block';
+
+    const transBackg = document.getElementById('transBackg') as HTMLDivElement
+    transBackg.style.display = 'block';
+
   }
 }
