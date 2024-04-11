@@ -1,7 +1,7 @@
 #foot-1mg{
     height: auto;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
 }
 
 #foot-div{
@@ -25,6 +25,7 @@
 
 #dark-img{
     background-size: cover;
+    /* width: 100vw; */
 }
 
 #foot-between h3{
@@ -70,7 +71,7 @@ h1{
 
     #foot-1mg{
         height:auto ;
-        width: fit-content;
+        width: 100vw;
         margin-top: 55px ;
     }
 

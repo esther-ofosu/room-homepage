@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
+  isMobileMenuOpen = false;
 
+  toggleMobileMenu() {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
+
+  navigateTo(destination: string) {
+    // Implement your navigation logic here based on `destination`
+    console.log(`Navigating to: ${destination}`);
+  }
 }
