@@ -1,7 +1,6 @@
 #foot-1mg{
     height: auto;
     background-size: cover;
-    /* background-position: center; */
 }
 
 #foot-div{
@@ -25,7 +24,6 @@
 
 #dark-img{
     background-size: cover;
-    /* width: 100vw; */
 }
 
 #foot-between h3{
@@ -34,7 +32,6 @@
     font-family: 'LeagueSpartan-Bold';
     font-size: 16px;
     letter-spacing: 0.4rem;
-    /* padding-left: 25px; */
 }
 
 #texts{
@@ -97,7 +94,6 @@ h1{
     #inner h3{
         margin-top: 0;
         padding-left: 30px;
-        /* width: 100vw; */
         padding-right: 25px;
         line-height: 25px;
     }
