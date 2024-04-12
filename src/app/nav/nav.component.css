@@ -87,7 +87,7 @@ button:hover + .underline {
 
 @media screen and (max-width:768px) {
     #h1{
-        margin-left: 170px;
+        margin-left: 165px;
         position: absolute;
         margin-top: 32px;
         display: block;
