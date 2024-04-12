@@ -123,7 +123,7 @@ button:hover + .underline {
     }
 
     #mobile-nav{
-        display: block;
+        display: none;
         display: flex;
         background-color: white;
         width: 80vw;

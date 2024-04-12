@@ -26,9 +26,6 @@ export class NavComponent {
   
 
   toggleIconClose() {
-    const mobileMenu= document.getElementById('mobileMenu') as HTMLDivElement
-    mobileMenu.style.display = 'block';
-
     const closeMenuDiv = document.getElementById('closeMenuDiv') as HTMLDivElement
     closeMenuDiv.style.display = 'none';
 
