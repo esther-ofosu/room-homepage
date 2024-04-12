@@ -97,6 +97,9 @@ h1{
     #inner h3{
         margin-top: 0;
         padding-left: 30px;
+        /* width: 100vw; */
+        padding-right: 25px;
+        line-height: 25px;
     }
 
     #texts{
