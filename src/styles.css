@@ -12,11 +12,13 @@ body, html{
     }
 }
 
-@media screen and (max-width: 1500px){
+/* @media screen and (max-width: 1500px){
     body{
         overflow: hidden;
+    height: 100vh;
+
     }
-}
+} */
 
 
 

@@ -1,6 +1,12 @@
 #foot-1mg{
     height: auto;
     background-size: cover;
+    width: 30vw;
+}
+
+footer{
+    height: 30vh;
+    width: 100vw;
 }
 
 #foot-div{
@@ -8,8 +14,15 @@
 }
 
 #foot-last{
-    width: 32%;
+    /* width: 30vw; */
     /* position: relative; */
+    width: 40vw;
+    height: 30vh;
+}
+
+.footer-img{
+    width: 33vw;
+    height: 40vh;
 }
 
 #foot-between{
@@ -25,6 +38,8 @@
 
 #dark-img{
     background-size: cover;
+    width: 30vw;
+    height: 40vh;
 }
 
 #foot-between h3{
@@ -102,6 +117,10 @@ h1{
      width: 100%;   
     }
 
+    #dark-img{
+        width: 100vw;
+    }
+
     #foot-between{
         height: 213px;
         width: fit-content;
@@ -127,4 +146,5 @@ h1{
     #texts{
         padding-left: 30px;
     }
+
 }

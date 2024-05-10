@@ -189,6 +189,10 @@ img{
         width: 8.4px;
         margin-top: -10px;
     }
+
+    #dark-img{
+        width: 378px !important;
+    }
 }
 
 
