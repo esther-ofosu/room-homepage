@@ -9,6 +9,7 @@
 
 #foot-last{
     width: 32%;
+    /* position: relative; */
 }
 
 #foot-between{
@@ -59,6 +60,31 @@ h1{
     width: fit-content;
 }
 
+@media screen and (min-width: 1910px){
+    footer{
+        height: 40vh;
+        width: 100vw;
+    }
+
+    #foot-1mg{
+       width: 30vw;
+    }
+
+    #dark-img{
+        width: 30vw;
+        height: 40vh;
+    }
+
+    #foot-last{
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .footer-img{
+        width: 33vw;
+        height: 40vh;
+    }
+}
 
 
 @media screen and (max-width:768px){

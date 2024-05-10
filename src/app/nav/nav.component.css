@@ -1,4 +1,4 @@
-#room{
+#nav{
     margin-top: 8px;
     margin-left: 60px;
     display: flex;
@@ -46,7 +46,7 @@ button:hover{
 
 button{
     color: white;
-    font-weight: 550;
+    font-weight: 100;
     background:transparent;
     border: none;
     outline: none;
@@ -82,6 +82,17 @@ button{
 button:hover + .underline {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media screen and (min-width: 1910px){
+    #h1{
+        font-size: 40px;
+    }
+
+    button{
+        font-size: 18px;
+        font-weight: 100;
+    }
 }
 
 
@@ -133,7 +144,7 @@ button:hover + .underline {
         top: -2px;
     }
 
-    #room{
+    #nav{
         width: fit-content;
         width: 100vw;
         margin-left: 0;

@@ -7,23 +7,9 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
   imports: [],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
-})
-export class NavComponent {
-  // implements AfterViewInit
-  // ngAfterViewInit(): void {
-  //   const mediaQuery = "(max-width: 768px)";
-  //   const mediaQueryList = window.matchMedia(mediaQuery);
-    
-  //   mediaQueryList.addEventListener("change", (event) => {
-  //     // This function will be called whenever the viewport size changes
-  //     if (!event.matches) {
-  //       this.toggleIconClose()
-  //       this.toggleMobileMenu()
-  //       console.log("Viewport is now less than 768px wide");
-  //     } 
-  //   });
-  // }
+}) 
   
+export class NavComponent {
 
   toggleIconClose() {
     const closeMenuDiv = document.getElementById('closeMenuDiv') as HTMLDivElement
